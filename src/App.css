@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.containerFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.holderFlex {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+}
+
+.button {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  border-color: transparent;
+}
+
+.green {
+  background-color: #77a85b;
+}
+
+.red {
+  background-color: #850100;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.grey {
+  background-color: #545353;
+}
+
+.activeButton {
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
